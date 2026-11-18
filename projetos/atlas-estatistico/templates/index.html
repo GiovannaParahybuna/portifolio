@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atlas Estatístico das Nações</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.32.0/plotly.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-meta">
+      <div class="hero-coords">
+        <span id="n-countries-tag">195 países</span>
+        <span>Fonte: country_stats-selected-columns.csv</span>
+        <span id="today-tag"></span>
+      </div>
+      <button class="theme-toggle" id="themeToggle">Modo claro</button>
+    </div>
+    <h1>Atlas Estatístico das Nações</h1>
+    <p class="lede">Território, população, densidade, água interior, desenvolvimento humano e fecundidade de 195 países — cálculos estatísticos e mapas construídos a partir da base carregada.</p>
+  </div>
+</div>
+
+<div class="map-feature">
+  <div class="wrap-wide">
+    <div class="map-feature-head">
+      <div class="eyebrow-row">
+        <h2>Mapa mundial</h2>
+        <div class="section-note">Escolha a variável para recolorir o mapa. Passe o cursor sobre um país para ver o valor exato.</div>
+      </div>
+      <div class="metric-tabs" id="metricTabs">
+        <button data-metric="population" class="active">População</button>
+        <button data-metric="hdi">IDH</button>
+        <button data-metric="total_km2">Território (km²)</button>
+        <button data-metric="density">Densidade</button>
+        <button data-metric="fertility">Fecundidade</button>
+        <button data-metric="pct_world_water">% água do mundo</button>
+      </div>
+    </div>
+    <div class="map-panel"><div id="map"></div></div>
+    <div class="map-legend">
+      <span id="legendMin"></span>
+      <div class="legend-bar" id="legendBar"></div>
+      <span id="legendMax"></span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="kpi-strip" id="kpiStrip"></div>
+
+  <section class="plain" id="rank-section">
+    <div class="section-head">
+      <h2>Maiores por indicador</h2>
+      <div class="section-note">Top 10 países por extensão territorial, população, IDH e participação na água interior do mundo.</div>
+    </div>
+    <div class="rank-grid" id="rankGrid"></div>
+  </section>
+
+  <section class="plain" id="charts-section">
+    <div class="section-head">
+      <h2>Relações estatísticas</h2>
+      <div class="section-note">Correlação de Pearson entre IDH e fecundidade: <strong id="corrTag" style="color:var(--brass)"></strong></div>
+    </div>
+    <div class="chart-grid">
+      <div class="chart-cell">
+        <h3>IDH × Taxa de fecundidade</h3>
+        <p class="chart-desc">Cada ponto é um país; o tamanho representa a população. Quanto maior o IDH, menor tende a ser a fecundidade.</p>
+        <div id="scatter" style="height:380px;"></div>
+      </div>
+      <div class="chart-cell">
+        <h3>Distribuição por faixa de IDH</h3>
+        <p class="chart-desc">Classificação PNUD: Baixo (&lt;0,55), Médio (0,55–0,70), Alto (0,70–0,80), Muito Alto (≥0,80).</p>
+        <div id="hdiDist" style="height:380px;"></div>
+      </div>
+      <div class="chart-cell">
+        <h3>Território × população (dispersão)</h3>
+        <p class="chart-desc">Eixos em escala logarítmica. Cor indica a densidade populacional.</p>
+        <div id="scatterArea" style="height:360px;"></div>
+      </div>
+      <div class="chart-cell">
+        <h3>Top 12 densidade populacional</h3>
+        <p class="chart-desc">Habitantes por km² de área total.</p>
+        <div id="topDensity" style="height:360px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plain" id="table-section">
+    <div class="section-head">
+      <h2>Tabela completa</h2>
+      <div class="section-note">Clique nos cabeçalhos para ordenar. Use a busca para filtrar por país.</div>
+    </div>
+    <div class="search-row">
+      <input type="text" id="searchBox" placeholder="Buscar país…">
+    </div>
+    <div class="table-wrap">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th data-key="country">País<span class="arrow"></span></th>
+            <th data-key="total_km2" class="num">Território (km²)<span class="arrow"></span></th>
+            <th data-key="population" class="num">População<span class="arrow"></span></th>
+            <th data-key="density" class="num">Densidade<span class="arrow"></span></th>
+            <th data-key="hdi" class="num">IDH<span class="arrow"></span></th>
+            <th data-key="fertility" class="num">Fecundidade<span class="arrow"></span></th>
+            <th data-key="pct_world_water" class="num">% água do mundo<span class="arrow"></span></th>
+            <th data-key="hdi_tier">Faixa IDH</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <span>Atlas Estatístico das Nações — painel gerado a partir de country_stats-selected-columns.csv</span>
+    <span id="genTag"></span>
+  </footer>
+</div>
+
+
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>

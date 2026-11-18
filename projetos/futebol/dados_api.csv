@@ -1,0 +1,135 @@
+pais,competicao,time,logo,pontos,partidas,forma,vitorias,empates,derrotas,gols_marcados,gols_sofridos,saldo_de_gols
+Brasil,Brasileirão,CR Flamengo,https://crests.football-data.org/1783.png,52,26,,15,7,4,50,21,29
+Brasil,Brasileirão,SE Palmeiras,https://crests.football-data.org/1769.png,52,25,,15,7,3,45,21,24
+Brasil,Brasileirão,CA Paranaense,https://crests.football-data.org/1768.png,46,26,,13,7,6,38,26,12
+Brasil,Brasileirão,Fluminense FC,https://crests.football-data.org/1765.png,45,26,,12,9,5,40,32,8
+Brasil,Brasileirão,EC Bahia,https://crests.football-data.org/1777.png,43,26,,11,10,5,40,32,8
+Brasil,Brasileirão,Cruzeiro EC,https://crests.football-data.org/1771.png,40,26,,11,7,8,36,37,-1
+Brasil,Brasileirão,Coritiba FBC,https://crests.football-data.org/4241.png,37,26,,10,7,9,34,35,-1
+Brasil,Brasileirão,CA Mineiro,https://crests.football-data.org/1766.png,36,25,,10,6,9,32,30,2
+Brasil,Brasileirão,RB Bragantino,https://crests.football-data.org/4286.png,35,25,,10,5,10,31,28,3
+Brasil,Brasileirão,São Paulo FC,https://crests.football-data.org/1776.png,33,25,,9,6,10,31,28,3
+Brasil,Brasileirão,Santos FC,https://crests.football-data.org/6685.png,32,25,,8,8,9,37,36,1
+Brasil,Brasileirão,SC Corinthians Paulista,https://crests.football-data.org/1779.png,32,25,,8,8,9,26,25,1
+Brasil,Brasileirão,Botafogo FR,https://crests.football-data.org/1770.png,30,24,,8,6,10,37,40,-3
+Brasil,Brasileirão,EC Vitória,https://crests.football-data.org/1782.png,29,25,,8,5,12,24,37,-13
+Brasil,Brasileirão,Grêmio FBPA,https://crests.football-data.org/1767.png,28,24,,7,7,10,27,32,-5
+Brasil,Brasileirão,Mirassol FC,https://crests.football-data.org/4364.png,28,26,,7,7,12,29,40,-11
+Brasil,Brasileirão,CR Vasco da Gama,https://crests.football-data.org/1780.png,25,25,,6,7,12,27,40,-13
+Brasil,Brasileirão,SC Internacional,https://crests.football-data.org/6684.png,25,26,,5,10,11,26,34,-8
+Brasil,Brasileirão,Clube do Remo,https://crests.football-data.org/4287.png,24,26,,5,9,12,30,42,-12
+Brasil,Brasileirão,Chapecoense AF,https://crests.football-data.org/1772_large.png,14,24,,2,8,14,25,49,-24
+Inglaterra,Premier League,Manchester City FC,https://crests.football-data.org/65.png,9,3,,3,0,0,7,2,5
+Inglaterra,Premier League,Arsenal FC,https://crests.football-data.org/57.png,9,3,,3,0,0,6,1,5
+Inglaterra,Premier League,Hull City AFC,https://crests.football-data.org/322.png,7,3,,2,1,0,3,0,3
+Inglaterra,Premier League,Chelsea FC,https://crests.football-data.org/61.png,6,3,,2,0,1,8,7,1
+Inglaterra,Premier League,Brentford FC,https://crests.football-data.org/402.png,5,3,,1,2,0,5,2,3
+Inglaterra,Premier League,Liverpool FC,https://crests.football-data.org/64.png,5,3,,1,2,0,6,4,2
+Inglaterra,Premier League,Newcastle United FC,https://crests.football-data.org/67.png,5,3,,1,2,0,6,4,2
+Inglaterra,Premier League,Everton FC,https://crests.football-data.org/62.png,5,3,,1,2,0,5,3,2
+Inglaterra,Premier League,Leeds United FC,https://crests.football-data.org/341.png,5,3,,1,2,0,3,2,1
+Inglaterra,Premier League,Brighton & Hove Albion FC,https://crests.football-data.org/397.png,4,3,,1,1,1,8,5,3
+Inglaterra,Premier League,Manchester United FC,https://crests.football-data.org/66.png,4,3,,1,1,1,7,6,1
+Inglaterra,Premier League,Sunderland AFC,https://crests.football-data.org/71.png,4,3,,1,1,1,3,3,0
+Inglaterra,Premier League,Crystal Palace FC,https://crests.football-data.org/354.png,3,3,,1,0,2,4,8,-4
+Inglaterra,Premier League,Ipswich Town FC,https://crests.football-data.org/349.png,3,3,,1,0,2,4,8,-4
+Inglaterra,Premier League,AFC Bournemouth,https://crests.football-data.org/bournemouth.png,2,3,,0,2,1,4,5,-1
+Inglaterra,Premier League,Nottingham Forest FC,https://crests.football-data.org/351.png,2,3,,0,2,1,2,3,-1
+Inglaterra,Premier League,Aston Villa FC,https://crests.football-data.org/58.png,1,3,,0,1,2,0,5,-5
+Inglaterra,Premier League,Tottenham Hotspur FC,https://crests.football-data.org/73.png,1,3,,0,1,2,0,5,-5
+Inglaterra,Premier League,Fulham FC,https://crests.football-data.org/63.png,0,3,,0,0,3,4,7,-3
+Inglaterra,Premier League,Coventry City FC,https://crests.football-data.org/1076.png,0,3,,0,0,3,0,5,-5
+Espanha,La Liga,FC Barcelona,https://crests.football-data.org/81.png,12,4,,4,0,0,17,2,15
+Espanha,La Liga,Deportivo Alavés,https://crests.football-data.org/263.png,10,4,,3,1,0,10,3,7
+Espanha,La Liga,Real Madrid CF,https://crests.football-data.org/86.png,9,4,,3,0,1,10,3,7
+Espanha,La Liga,Real Betis Balompié,https://crests.football-data.org/90.png,9,4,,3,0,1,5,5,0
+Espanha,La Liga,RC Deportivo La Coruña,https://crests.football-data.org/560.png,8,4,,2,2,0,8,5,3
+Espanha,La Liga,Club Atlético de Madrid,https://crests.football-data.org/78.png,7,4,,2,1,1,7,6,1
+Espanha,La Liga,Sevilla FC,https://crests.football-data.org/559.png,7,4,,2,1,1,6,5,1
+Espanha,La Liga,CA Osasuna,https://crests.football-data.org/79.png,7,4,,2,1,1,5,6,-1
+Espanha,La Liga,Athletic Club,https://crests.football-data.org/77.png,6,4,,2,0,2,6,5,1
+Espanha,La Liga,Levante UD,https://crests.football-data.org/88.png,5,4,,1,2,1,5,5,0
+Espanha,La Liga,RCD Espanyol de Barcelona,https://crests.football-data.org/80.png,4,4,,1,1,2,5,4,1
+Espanha,La Liga,Real Racing Club de Santander,https://crests.football-data.org/5335.png,4,4,,1,1,2,7,8,-1
+Espanha,La Liga,Rayo Vallecano de Madrid,https://crests.football-data.org/87.png,4,4,,1,1,2,7,10,-3
+Espanha,La Liga,Real Sociedad de Fútbol,https://crests.football-data.org/92.png,4,4,,1,1,2,3,6,-3
+Espanha,La Liga,Getafe CF,https://crests.football-data.org/82.png,3,3,,1,0,2,1,4,-3
+Espanha,La Liga,Villarreal CF,https://crests.football-data.org/94.png,2,4,,0,2,2,6,8,-2
+Espanha,La Liga,RC Celta de Vigo,https://crests.football-data.org/558.png,2,4,,0,2,2,1,4,-3
+Espanha,La Liga,Málaga CF,https://crests.football-data.org/84.png,2,4,,0,2,2,1,7,-6
+Espanha,La Liga,Elche CF,https://crests.football-data.org/285.png,1,3,,0,1,2,3,9,-6
+Espanha,La Liga,Valencia CF,https://crests.football-data.org/95.png,1,4,,0,1,3,1,9,-8
+Alemanha,Bundesliga,FC Augsburg,https://crests.football-data.org/16.png,6,2,,2,0,0,7,1,6
+Alemanha,Bundesliga,SC Freiburg,https://crests.football-data.org/17.png,6,2,,2,0,0,5,1,4
+Alemanha,Bundesliga,Borussia Dortmund,https://crests.football-data.org/4.png,6,2,,2,0,0,5,2,3
+Alemanha,Bundesliga,SV 07 Elversberg,https://crests.football-data.org/719.png,6,2,,2,0,0,7,5,2
+Alemanha,Bundesliga,1. FSV Mainz 05,https://crests.football-data.org/15.png,4,2,,1,1,0,5,0,5
+Alemanha,Bundesliga,FC Bayern München,https://crests.football-data.org/5.png,4,2,,1,1,0,5,1,4
+Alemanha,Bundesliga,Bayer 04 Leverkusen,https://crests.football-data.org/3.png,3,2,,1,0,1,6,3,3
+Alemanha,Bundesliga,RB Leipzig,https://crests.football-data.org/721.png,3,2,,1,0,1,4,3,1
+Alemanha,Bundesliga,VfB Stuttgart,https://crests.football-data.org/10.png,3,2,,1,0,1,5,6,-1
+Alemanha,Bundesliga,SV Werder Bremen,https://crests.football-data.org/12.png,3,2,,1,0,1,4,5,-1
+Alemanha,Bundesliga,1. FC Köln,https://crests.football-data.org/1.png,3,2,,1,0,1,4,6,-2
+Alemanha,Bundesliga,SC Paderborn 07,https://crests.football-data.org/29.png,1,2,,0,1,1,0,1,-1
+Alemanha,Bundesliga,Eintracht Frankfurt,https://crests.football-data.org/19.png,1,2,,0,1,1,4,7,-3
+Alemanha,Bundesliga,FC Schalke 04,https://crests.football-data.org/6.png,1,2,,0,1,1,0,3,-3
+Alemanha,Bundesliga,1. FC Union Berlin,https://crests.football-data.org/28.png,1,2,,0,1,1,3,7,-4
+Alemanha,Bundesliga,TSG 1899 Hoffenheim,https://crests.football-data.org/2.png,0,2,,0,0,2,4,6,-2
+Alemanha,Bundesliga,Borussia Mönchengladbach,https://crests.football-data.org/18.png,0,2,,0,0,2,3,7,-4
+Alemanha,Bundesliga,Hamburger SV,https://crests.football-data.org/7.png,0,2,,0,0,2,0,7,-7
+Itália,Serie A,AS Roma,https://crests.football-data.org/100.png,9,3,,3,0,0,10,1,9
+Itália,Serie A,FC Internazionale Milano,https://crests.football-data.org/108.png,9,3,,3,0,0,8,3,5
+Itália,Serie A,Como 1907,https://crests.football-data.org/7397.png,7,3,,2,1,0,7,3,4
+Itália,Serie A,AC Milan,https://crests.football-data.org/98.png,7,3,,2,1,0,4,1,3
+Itália,Serie A,Juventus FC,https://crests.football-data.org/109.png,7,3,,2,1,0,3,0,3
+Itália,Serie A,Frosinone Calcio,https://crests.football-data.org/470.png,6,3,,2,0,1,6,3,3
+Itália,Serie A,SS Lazio,https://crests.football-data.org/110.png,6,2,,2,0,0,2,0,2
+Itália,Serie A,Atalanta BC,https://crests.football-data.org/102.png,6,3,,2,0,1,4,3,1
+Itália,Serie A,Udinese Calcio,https://crests.football-data.org/115.png,4,2,,1,1,0,4,3,1
+Itália,Serie A,US Sassuolo Calcio,https://crests.football-data.org/471.png,4,3,,1,1,1,5,5,0
+Itália,Serie A,SSC Napoli,https://crests.football-data.org/113.png,3,3,,1,0,2,5,5,0
+Itália,Serie A,Cagliari Calcio,https://crests.football-data.org/104.png,3,2,,1,0,1,1,1,0
+Itália,Serie A,Torino FC,https://crests.football-data.org/586.png,3,3,,1,0,2,4,5,-1
+Itália,Serie A,US Lecce,https://crests.football-data.org/5890.png,3,2,,1,0,1,2,4,-2
+Itália,Serie A,Bologna FC 1909,https://crests.football-data.org/103.png,1,3,,0,1,2,2,4,-2
+Itália,Serie A,Parma Calcio 1913,https://crests.football-data.org/112.png,1,3,,0,1,2,1,4,-3
+Itália,Serie A,AC Monza,https://crests.football-data.org/5911.png,1,3,,0,1,2,4,8,-4
+Itália,Serie A,Venezia FC,https://crests.football-data.org/454.png,0,3,,0,0,3,2,7,-5
+Itália,Serie A,Genoa CFC,https://crests.football-data.org/107.png,0,3,,0,0,3,1,7,-6
+Itália,Serie A,ACF Fiorentina,https://crests.football-data.org/99.png,0,3,,0,0,3,1,9,-8
+França,Ligue 1,AS Monaco FC,https://crests.football-data.org/548.png,9,3,,3,0,0,5,1,4
+França,Ligue 1,Olympique Lyonnais,https://crests.football-data.org/523.png,7,3,,2,1,0,6,2,4
+França,Ligue 1,Lille OSC,https://crests.football-data.org/521.png,7,3,,2,1,0,5,2,3
+França,Ligue 1,Stade Rennais FC 1901,https://crests.football-data.org/529.png,7,3,,2,1,0,7,5,2
+França,Ligue 1,RC Strasbourg Alsace,https://crests.football-data.org/576.png,6,3,,2,0,1,8,7,1
+França,Ligue 1,Paris FC,https://crests.football-data.org/1045.png,5,3,,1,2,0,5,2,3
+França,Ligue 1,Stade Brestois 29,https://crests.football-data.org/512.png,5,3,,1,2,0,6,5,1
+França,Ligue 1,Olympique de Marseille,https://crests.football-data.org/516.png,4,3,,1,1,1,6,4,2
+França,Ligue 1,FC Lorient,https://crests.football-data.org/525.png,4,3,,1,1,1,2,2,0
+França,Ligue 1,ES Troyes AC,https://crests.football-data.org/531.png,4,3,,1,1,1,4,7,-3
+França,Ligue 1,Racing Club de Lens,https://crests.football-data.org/546.png,3,3,,1,0,2,6,5,1
+França,Ligue 1,Angers SCO,https://crests.football-data.org/532.png,3,3,,1,0,2,4,5,-1
+França,Ligue 1,Le Mans FC,https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg,2,3,,0,2,1,5,6,-1
+França,Ligue 1,Paris Saint-Germain FC,https://crests.football-data.org/524.png,2,3,,0,2,1,5,6,-1
+França,Ligue 1,OGC Nice,https://crests.football-data.org/522.png,2,3,,0,2,1,1,4,-3
+França,Ligue 1,Le Havre AC,https://crests.football-data.org/533.png,1,3,,0,1,2,2,4,-2
+França,Ligue 1,Toulouse FC,https://crests.football-data.org/511.png,1,3,,0,1,2,2,5,-3
+França,Ligue 1,AJ Auxerre,https://crests.football-data.org/519.png,0,3,,0,0,3,4,11,-7
+Portugal,Primeira Liga,FC Porto,https://crests.football-data.org/503.png,15,5,,5,0,0,11,1,10
+Portugal,Primeira Liga,Sporting Clube de Portugal,https://crests.football-data.org/498.png,13,5,,4,1,0,14,5,9
+Portugal,Primeira Liga,CD Santa Clara,https://crests.football-data.org/5530.png,11,5,,3,2,0,9,3,6
+Portugal,Primeira Liga,Sport Lisboa e Benfica,https://crests.football-data.org/1903.png,10,4,,3,1,0,14,3,11
+Portugal,Primeira Liga,FC Arouca,https://crests.football-data.org/712.png,9,4,,3,0,1,7,3,4
+Portugal,Primeira Liga,Sporting Clube de Braga,https://crests.football-data.org/5613.png,7,3,,2,1,0,5,3,2
+Portugal,Primeira Liga,Gil Vicente FC,https://crests.football-data.org/5533.png,7,4,,2,1,1,3,1,2
+Portugal,Primeira Liga,CS Marítimo,https://crests.football-data.org/5575.png,7,5,,2,1,2,6,8,-2
+Portugal,Primeira Liga,CF Estrela da Amadora,https://crests.football-data.org/9136.png,6,4,,1,3,0,9,8,1
+Portugal,Primeira Liga,Académico de Viseu FC,https://crests.football-data.org/5527.png,5,5,,1,2,2,5,8,-3
+Portugal,Primeira Liga,CD Nacional,https://crests.football-data.org/5529.png,4,5,,1,1,3,6,8,-2
+Portugal,Primeira Liga,Vitória SC,https://crests.football-data.org/5543.png,4,5,,1,1,3,3,5,-2
+Portugal,Primeira Liga,Moreirense FC,https://crests.football-data.org/583.png,4,4,,1,1,2,4,8,-4
+Portugal,Primeira Liga,FC Famalicão,https://crests.football-data.org/5531.png,3,5,,0,3,2,4,6,-2
+Portugal,Primeira Liga,Rio Ave FC,https://crests.football-data.org/496.png,3,5,,1,0,4,2,11,-9
+Portugal,Primeira Liga,FC Alverca,https://crests.football-data.org/7822.png,2,5,,0,2,3,5,10,-5
+Portugal,Primeira Liga,GD Estoril Praia,https://crests.football-data.org/582.png,1,4,,0,1,3,2,7,-5
+Portugal,Primeira Liga,Casa Pia AC,https://crests.football-data.org/6618.png,1,5,,0,1,4,0,11,-11
