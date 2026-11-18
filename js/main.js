@@ -1,8 +1,8 @@
 const t=document.getElementById("tema"),r=document.documentElement;
 const ico=()=>t.textContent=r.dataset.theme==="dark"?"☀️":"🌙";ico();
 t.onclick=()=>{r.dataset.theme=r.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("t",r.dataset.theme)}catch(e){}ico()};
-const g=document.getElementById("projetos");
-if(g)g.innerHTML=PROJETOS.map(p=>`<a class="card" href="projeto.html?id=${p.id}"><div class="ic">${p.icone}</div><h3>${p.titulo}</h3><div><span class="tag">${p.tag}</span>${p.status?` <span class="tag dev">🚧 ${p.status}</span>`:""}</div><p>${p.resumo}</p><span class="go">Ver projeto →</span></a>`).join("");
+const g=document.getElementById("lista-projetos");
+if(g&&!g.children.length)g.innerHTML=PROJETOS.map(p=>`<a class="card" href="projeto.html?id=${p.id}"><div class="ic">${p.icone}</div><h3>${p.titulo}</h3><div><span class="tag">${p.tag}</span>${p.status?` <span class="tag dev">🚧 ${p.status}</span>`:""}</div><p>${p.resumo}</p><span class="go">Ver projeto →</span></a>`).join("");
 const pg=document.getElementById("projeto");
 if(pg){const p=PROJETOS.find(x=>x.id===new URLSearchParams(location.search).get("id"))||PROJETOS[0];document.title=p.titulo;
  pg.innerHTML=`<a class="back" href="index.html#projetos">← Voltar</a><div class="pill">${p.tag}</div>${p.status?` <span class="pill dev">🚧 ${p.status}</span>`:""}<h1>${p.icone} <span>${p.titulo}</span></h1><p class="sub" style="margin-top:14px;max-width:680px">${p.detalhes}</p><div class="links">${p.links.map(l=>`<a class="btn o" href="${l[1]}" target="_blank" rel="noopener">${l[0]}</a>`).join("")}</div><div class="chips" style="margin-bottom:26px">${p.stack.map(s=>`<span class="chip">${s}</span>`).join("")}</div><ul class="dest">${p.destaques.map(d=>`<li>${d}</li>`).join("")}</ul><div id="extra"></div>`;
